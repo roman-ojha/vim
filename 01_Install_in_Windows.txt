@@ -1,0 +1,3 @@
+-> https://www.vim.org/download.php#pc
+    -> install exe file
+    -> add vim exe path to environment variables path 

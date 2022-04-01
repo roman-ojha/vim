@@ -1,0 +1,32 @@
+-> :q (to just quit vim)
+-> :wq (save and quit)
+-> :q! (quit and don't save the file)
+-> :w (save the changes)
+
+    => to go back to command mode:
+        -> esc
+
+*) Command mode:
+    -> we would be in command mode when we enter vim
+        => To move cursor:
+            -> j (down)
+            -> k (up)
+            -> l (right)
+            -> h (left)
+    -> dd (to delete the line)
+    -> u (to undo)
+    -> ctrl + r (to redo)
+    -> G (to go end of line)
+    -> gg (to go at fist line)
+    -> } (to escape downward block of code)
+    -> { (go upward block of code)
+    -> <number> j (go <number> line downward)
+    -> <number> k (go <number> line upward)
+    -> <number> l (go <number> line right)
+    -> <number> h (go <number> line left)
+    -> <number> } (go <number> downward block)
+    -> <number> { (to <number> upward block)
+
+*) Insert Mode:
+    => to go to Insert mode:
+        -> i 
