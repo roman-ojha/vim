@@ -8,25 +8,67 @@
 
 *) Command mode:
     -> we would be in command mode when we enter vim
+    => NOTE: you can use tons of key bind to do command
         => To move cursor:
             -> j (down)
             -> k (up)
             -> l (right)
             -> h (left)
-    -> dd (to delete the line)
     -> u (to undo)
     -> ctrl + r (to redo)
     -> G (to go end of line)
     -> gg (to go at fist line)
     -> } (to escape downward block of code)
     -> { (go upward block of code)
+    -> d} (delete first below block of code)
+    -> yy (copy line to clipboard)
+    -> p (paste below)
+    -> P (paste above)
+    -> :<number> (to go to <number> line)
     -> <number> j (go <number> line downward)
     -> <number> k (go <number> line upward)
     -> <number> l (go <number> line right)
     -> <number> h (go <number> line left)
     -> <number> } (go <number> downward block)
     -> <number> { (to <number> upward block)
+    -> <number> dd (to delete <number> line of code)
+    -> O (add new line above and enter into insert mode)
+    -> o (add new line below and enter into insert mode)
+    -> % (put cursor on starting/ending bracket, and go to ending/starting bracket)
+    -> d% (delete all line between starting/ending bracket)
+
+    => Delete:
+        -> C (delete rest of the line form the cursor and go to insert mode)
+        -> dd (to delete the line and also copy to clipboard)
+        -> D (to delete rest of the line from the cursor)
+        -> dt<letter> (to delete rest of the line until given letter comes)
+        -> ct<letter>
+        -> 
+
+
+    => Horizontally
+        -> w (to go to next word)
+        -> W (go to next space)
+        -> b (to escape word backwardly)
+        -> B (to escape word space)
+        -> 0 (takes cursor to beginning of line)
+        -> ^ (to to beginning of the first word in line)
+        -> $ (end of the line)
+        -> t<letter> (go before that specific point where given letter/symbol exist)
+        -> f<letter> (go on that specific point where given letter/symbol exist)
+        -> cw (to change word/ delete word and go to insert mode)
+        -> dw (delete word every time we press 'dw')
+
+*) Visual Mode:
+    -> visual mode, which will allow us to select group of code
+        -> V (to enter to visual line mode)
+        -> v (to enter to visual mode)
+    -> } (to select block of code in downward)
+    -> { (to select block of code in upward) 
+    -> NOTE: now i can perform the exact same command that we have perform in Command mode to perform action
 
 *) Insert Mode:
     => to go to Insert mode:
         -> i 
+    -> O (add new line above and enter into insert mode)
+    -> o (add new line and enter into insert mode)
