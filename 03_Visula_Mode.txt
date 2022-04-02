@@ -1,0 +1,11 @@
+*) Visual Mode:
+    -> visual mode, which will allow us to select group of code
+        -> V (to enter to visual line mode)
+        -> v (to enter to visual mode)
+        -> ctrl+v (to enter ot visual block)
+    -> } (to select block of code in downward)
+    -> { (to select block of code in upward) 
+    -> y (copy selected visual line)
+    -> p (paste copied line)
+    -> NOTE: now i can perform the exact same command that we have perform in Command mode to perform action
+

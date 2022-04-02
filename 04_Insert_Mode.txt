@@ -1,0 +1,8 @@
+*) Insert Mode:
+    => to go to Insert mode:
+        -> i 
+    -> O (add new line above and enter into insert mode)
+    -> o (add new line and enter into insert mode)
+    -> a (go to insert mode and move cursor to next letter)
+    -> A (go to insert mode and move cursor to end of line)
+
