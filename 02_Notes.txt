@@ -46,6 +46,7 @@
         -> ct<letter>
         -> x (delete letter where cursor is)
         -> <number> x (delete given number of letter to the right)
+        -> dw (delete word every time we press 'dw')
 
 
     => Horizontally
@@ -59,7 +60,6 @@
         -> t<letter> (go before that specific point where given letter/symbol exist)
         -> f<letter> (go on that specific point where given letter/symbol exist)
         -> cw (to change word/ delete word and go to insert mode)
-        -> dw (delete word every time we press 'dw')
         -> t<letter> and ; (go to next instance)
         -> > (tab)
         -> < (to !tab)
@@ -76,24 +76,6 @@
     => Macros:
         -> they allow you to record your keystrokes and then replay them again
         -> https://youtu.be/IiwGbcd8S7I?t=2325
-
-*) Visual Mode:
-    -> visual mode, which will allow us to select group of code
-        -> V (to enter to visual line mode)
-        -> v (to enter to visual mode)
-        -> ctrl+v (to enter ot visual block)
-    -> } (to select block of code in downward)
-    -> { (to select block of code in upward) 
-    -> NOTE: now i can perform the exact same command that we have perform in Command mode to perform action
-
-*) Insert Mode:
-    => to go to Insert mode:
-        -> i 
-    -> O (add new line above and enter into insert mode)
-    -> o (add new line and enter into insert mode)
-    -> a (go to insert mode and move cursor to next letter)
-    -> A (go to insert mode and move cursor to end of line)
-
 
 *) In VScode:
     => https://youtu.be/IiwGbcd8S7I?t=3734
