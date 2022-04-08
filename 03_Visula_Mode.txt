@@ -7,5 +7,11 @@
     -> { (to select block of code in upward) 
     -> y (copy selected visual line)
     -> p (paste copied line)
+    -> 'shift + I' (to insert text in visual mode)
+    -> 'viw' (to select inner word)
+    *) To change same word instance:
+        -> * (Select current word)
+        -> cgn (change word with new added word)
+        -> . (repeat until you change it)
     -> NOTE: now i can perform the exact same command that we have perform in Command mode to perform action
 
