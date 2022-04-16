@@ -5,4 +5,4 @@
     -> o (add new line and enter into insert mode)
     -> a (go to insert mode and move cursor to next letter)
     -> A (go to insert mode and move cursor to end of line)
-
+    -> ci<letter/symbol> (to remove all the content inside the given symbol like "<content>" and go to insert mode)
