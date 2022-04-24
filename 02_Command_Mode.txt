@@ -5,78 +5,77 @@
 
     => to go back to command mode:
         -> esc
+-> we would be in command mode when we enter vim
+=> NOTE: you can use tons of key bind to do command
 
 *) Command mode:
-    -> we would be in command mode when we enter vim
-    => NOTE: you can use tons of key bind to do command
-        => To move cursor:
-            -> j (down)
-            -> k (up)
-            -> l (right)
-            -> h (left)
     -> u (to undo)
+    -> > (tab)
+    -> < (to !tab)
     -> ctrl + r (to redo)
-    -> G (to go end of line)
-    -> gg (to go at fist line)
-    -> } (to escape downward block of code)
-    -> { (go upward block of code)
-    -> d} (delete first below block of code)
-    -> p (paste below)
-    -> P (paste above)
-    -> :<number> (to go to <number> line)
-    -> <number> j (go <number> line downward)
-    -> <number> k (go <number> line upward)
-    -> <number> l (go <number> line right)
-    -> <number> h (go <number> line left)
-    -> <number> } (go <number> downward block)
-    -> <number> { (to <number> upward block)
-    -> <number> dd (to delete <number> line of code)
-    -> O (add new line above and enter into insert mode)
-    -> o (add new line below and enter into insert mode)
-    -> % (put cursor on starting/ending bracket, and go to ending/starting bracket)
-    -> d% (delete all line between starting/ending bracket)
-    -> * (go forward where the similar name/word exist)
-    -> N (to backward where the similar name/word exist)
-
-    => Copy:
-        -> yy (copy line to clipboard)
-
-    => Delete and Cut:
-        -> dd (to delete the line and also copy to clipboard)
-        -> D (to delete rest of the line from the cursor)
-        -> dt<letter> (to delete rest of the line until given letter comes)
-        -> C (delete rest of the line form the cursor and go to insert mode)
-        -> ct<letter>
-        -> x (delete letter where cursor is)
-        -> <number> x (delete given number of letter to the right)
-        -> dw (delete word every time we press 'dw')
-
-
-    => Horizontally
-        -> w (to go to next word)
-        -> W (go to next space)
-        -> b (to escape word backwardly)
-        -> B (to escape word space)
-        -> 0 (takes cursor to beginning of line)
-        -> ^ (to to beginning of the first word in line)
-        -> $ (end of the line)
-        -> t<letter> (go before that specific point where given letter/symbol exist)
-        -> f<letter> (go on that specific point where given letter/symbol exist)
-        -> cw (to change word/ delete word and go to insert mode)
-        -> t<letter> and ; (go to next instance)
-        -> > (tab)
-        -> < (to !tab)
-
     -> ~ (to swap the letter Case, capital to small and small to capital letter)
     -> <number>~ (change letter case up to given number)
     -> r<letter> (to replace existing letter with the given letter)
     -> R<word>
     -> <number>r<letter> (number of letter to replace with given letter)
 
-    => Period Command:
+    *) Move Cursor:
+        -> j (down)
+        -> k (up)
+        -> l (right)
+        -> h (left)
+        -> G (to go end of line)
+        -> gg (to go at fist line)
+        -> } (to escape downward block of code)
+        -> { (go upward block of code)
+        -> :<number> (to go to <number> line)
+        -> <number> j (go <number> line downward)
+        -> <number> k (go <number> line upward)
+        -> <number> l (go <number> line right)
+        -> <number> h (go <number> line left)
+        -> <number> } (go <number> downward block)
+        -> <number> { (to <number> upward block)
+        -> <number> dd (to delete <number> line of code)
+        -> % (put cursor on starting/ending bracket, and go to ending/starting bracket)
+        -> * (go forward where the similar name/word exist)
+        -> N (to backward where the similar name/word exist)
+        *) Horizontally
+            -> w (to go to next word)
+            -> W (go to next space)
+            -> b (to escape word backwardly)
+            -> B (to escape word space)
+            -> 0 (takes cursor to beginning of line)
+            -> ^ (to to beginning of the first word in line)
+            -> $ (end of the line)
+            -> t<letter> (go before that specific point where given letter/symbol exist)
+            -> f<letter> (go on that specific point where given letter/symbol exist)
+            -> t<letter> and ; (go to next instance)
+
+    *) Copy and Paste:
+        -> yy (copy line to clipboard)
+        -> p (paste below)
+        -> P (paste above)
+
+    *) Delete and Cut:
+        -> d} (delete first below block of code)
+        -> d% (delete all line between starting/ending bracket)
+        -> dd (to delete the line and also copy to clipboard)
+        -> D (to delete rest of the line from the cursor)
+        -> dw (delete word from the cursor point)
+        -> diw (delete word)
+        -> dt<letter> (to delete rest of the line until given letter comes)
+        -> x (delete letter where cursor is)
+        -> <number> x (delete given number of letter to the right)
+        -> C (Cut rest of the line form the cursor and go to insert mode)
+        -> ct<letter>
+        -> cw (cut word from the cursor and go to insert mode)
+        -> ciw (cut word and go to insert mode)
+
+
+    *) Period Command:
         -> . (Redoes the last thing that we did and last command that we did)
 
-    => Macros:
+    *) Macros:
         -> they allow you to record your keystrokes and then replay them again
         -> https://youtu.be/IiwGbcd8S7I?t=2325
 
