@@ -9,6 +9,7 @@
     -> p (paste copied line)
     -> 'shift + I' (to insert text in visual mode)
     -> 'viw' (to select inner word)
+    -> 'vi<symbol/letter>' (select upto given symbol)
     -> 'vw' (select word from the cursor)
     *) To change same word instance:
         -> * (Select current word)
