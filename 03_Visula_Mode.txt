@@ -17,3 +17,10 @@
         -> . (repeat until you change it)
     -> NOTE: now i can perform the exact same command that we have perform in Command mode to perform action
 
+
+*) Insert text in multiple lines after 'shift + i' in visual mode:
+    -> Enter visual mode by pressing ctrl + v.
+    -> Select the desired lines by moving the cursor up or down.
+    -> Press Shift+i to go into insert mode at the beginning of the selection.
+    -> Make your changes or type your desired text.
+    -> Press Esc to exit insert mode and apply the changes to all selected lines.
