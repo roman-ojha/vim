@@ -43,6 +43,9 @@
         -> % (put cursor on starting/ending bracket, and go to ending/starting bracket)
         -> * (go forward where the similar name/word exist)
         -> N (to backward where the similar name/word exist)
+        *) Fold and Unfold Block of Code:
+            -> zfa<symbol> (to fold the block of code where given symbol start and end)
+            -> l (to unfold the block of code)
         *) Horizontally
             -> w (to go to next word)
             -> W (go to next space)
